@@ -7,5 +7,6 @@
 
   <ItemGroup>
     <Folder Include="Workers\" />
+    <Folder Include="Data\" />
   </ItemGroup>
 </Project>

@@ -1,7 +1,7 @@
 ﻿using System;
 namespace SudokuSolver.Workers
 {
-    public class SudokuBoardDisplayer
+    class SudokuBoardDisplayer
     {
         public void Display(string title, int[,] sudokuBoard)
         {

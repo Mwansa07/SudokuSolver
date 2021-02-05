@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace SudokuSolver.Workers
 {
-    public class SudokuFileReader
+    class SudokuFileReader
     {
         public int[,] ReadFile(string filename)
         {

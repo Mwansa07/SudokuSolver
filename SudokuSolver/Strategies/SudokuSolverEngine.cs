@@ -5,7 +5,7 @@ using SudokuSolver.Workers;
 
 namespace SudokuSolver.Strategies
 {
-    public class SudokuSolverEngine
+    class SudokuSolverEngine
     {
         private readonly SudokuBoardStateManager _sudokuBoardStateManager;
         private readonly SudokuMapper _sudokuMapper;

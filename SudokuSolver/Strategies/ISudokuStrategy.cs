@@ -1,7 +1,7 @@
 ﻿using System;
 namespace SudokuSolver.Strategies
 {
-    public interface ISudokuStrategy
+    interface ISudokuStrategy
     {
         int[,] Solve(int[,] sudokuBoard);
     }

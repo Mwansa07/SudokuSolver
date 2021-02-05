@@ -4,7 +4,7 @@ using SudokuSolver.Workers;
 
 namespace SudokuSolver.Strategies
 {
-    public class SimpleMarkupStrategy : ISudokuStrategy
+    class SimpleMarkupStrategy : ISudokuStrategy
     {
         private readonly SudokuMapper _sudokuMapper;
 

@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 using SudokuSolver.Strategies;
 using SudokuSolver.Workers;
+
+[assembly: InternalsVisibleToAttribute("SudokuSolver.Test.Unit")]
 
 namespace SudokuSolver
 {

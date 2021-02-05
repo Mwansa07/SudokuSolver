@@ -3,7 +3,7 @@ using System.Text;
 
 namespace SudokuSolver.Workers
 {
-    public class SudokuBoardStateManager
+    class SudokuBoardStateManager
     {
         public string GenerateState(int[,] sudokuBoard)
         {
